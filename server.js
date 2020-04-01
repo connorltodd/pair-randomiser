@@ -12,7 +12,7 @@ db.once('open', () => console.log('connected to database'))
 // Convert all requests to JSON
 app.use(express.json())
 
-const coursesRouter = require('./routes/courses.route')
+const coursesRouter = require('./server/routes/courses.route')
 app.use('/course', coursesRouter)
 
 app.listen(5000, () => console.log('server started at port 5000'))

@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "npm run watch:server && npm start",
-    "watch:server": "nodemon ./server/server.js"
+    "watch:server": "nodemon .js"
   },
   "eslintConfig": {
     "extends": "react-app"
