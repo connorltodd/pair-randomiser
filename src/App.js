@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './assets/sass/reset.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div>
     </div>
   );
 }
